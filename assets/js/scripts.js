@@ -16,37 +16,34 @@ let scissors_div = document.getElementById("scissors");
 /**  Add some event listeners with click event for calling function
  *   We need click the choise , after that compare the choise with computer's choise
  *   Compare this two and give the result back  
-*/
+ */
 
 // define main game function
 
 function getSkynetPick() {
-    let choices = ["rock" , "paper" , "scissors"];
+    let choices = ["rock", "paper", "scissors"];
     let randomNumber = (Math.floor(Math.random() * 3));
-    return choices [randomNumber];
+    return choices[randomNumber];
 }
-
-console.log(getSkynetPick());
 
 function game(userPick) {
-    
+    let skynetChoice = getSkynetPick();
+    console.log("user choice =>"+ userPick);
+    console.log("skynet choice" + skynetChoice);
 }
 
-function main(){
-    rock_div.addEventListener("click", function(){
-    game("rock");
-    console.log("You clicked on rock");
+function main() {
+    rock_div.addEventListener("click", function () {
+        game("rock");
     })
 
-    paper_div.addEventListener("click", function(){
-    game("paper");
-    console.log("You clicked on paper");
+    paper_div.addEventListener("click", function () {
+        game("paper");
     })
 
-    scissors_div.addEventListener("click", function(){
-    game("scissors");
-    console.log("You clicked on scissors");
+    scissors_div.addEventListener("click", function () {
+        game("scissors");
     })
 }
 
-main(); 
+main();
