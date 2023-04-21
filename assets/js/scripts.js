@@ -7,7 +7,7 @@ let skynetScore = 0;
 let playerScore_span = document.getElementById("player-score");
 let skynetScore_span = document.getElementById("skynet-score");
 let scoreBord_div = document.querySelector("score-bord");
-let result_div = document.querySelector("result");
+let result_p = document.querySelector(".result > p");
 let rock_div = document.getElementById("rock");
 let paper_div = document.getElementById("paper");
 let scissors_div = document.getElementById("scissors");
@@ -26,10 +26,42 @@ function getSkynetPick() {
     return choices[randomNumber];
 }
 
+function win(userPick, skynetChoice) {
+    playerScore++;
+    playerScore_span.innerHTML = playerScore;
+    skynetScore_span.innerHTML = skynetScore;
+    result_p.innerHTML = userPick + " " + "beats" + " " + skynetChoice + " " + ", you win !🔥"
+}
+
+function lose() {
+    console.log("lost");
+}
+
+function draw() {
+    console.log("nothoing");
+}
+
 function game(userPick) {
     let skynetChoice = getSkynetPick();
-    console.log("user choice =>"+ userPick);
-    console.log("skynet choice" + skynetChoice);
+    switch (userPick + skynetChoice) { //we use switch instead of if for more readable code and less coding
+        case "rockscissors":
+        case "paperrock":
+        case "scissorspaper":
+            win(userPick, skynetChoice);
+            break;
+        case "rockpaper":
+        case "paperscissors":
+        case "scissorsrock":
+            lose(userPick, skynetChoice);
+            break;
+        case "rockrock":
+        case "paperpaper":
+        case "scissorsscissors":
+            draw(userPick, skynetChoice);
+            break;
+
+    }
+
 }
 
 function main() {
