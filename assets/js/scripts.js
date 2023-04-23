@@ -33,12 +33,17 @@ function win(userPick, skynetChoice) {
     result_p.innerHTML = userPick + " " + "beats" + " " + skynetChoice + " " + ", you win !🔥"
 }
 
-function lose() {
-    console.log("lost");
+function lose(userPick, skynetChoice) {
+    skynetScore++;
+    playerScore_span.innerHTML = playerScore;
+    skynetScore_span.innerHTML = skynetScore;
+    result_p.innerHTML = userPick + " " + "lose to" + " " + skynetChoice + " " + ", you lost !👎"
 }
 
-function draw() {
-    console.log("nothoing");
+function draw(userPick, skynetChoice) {
+    playerScore_span.innerHTML = playerScore;
+    skynetScore_span.innerHTML = skynetScore;
+    result_p.innerHTML = userPick + " " + "equals" + " " + skynetChoice + " " + ", i'ts a draw !👐"
 }
 
 function game(userPick) {
