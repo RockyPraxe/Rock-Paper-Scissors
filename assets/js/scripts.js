@@ -11,14 +11,15 @@ let result_p = document.querySelector(".result > p");
 let rock_div = document.getElementById("rock");
 let paper_div = document.getElementById("paper");
 let scissors_div = document.getElementById("scissors");
+let playerClick_div = document.querySelector(".player-click > p");
+let skynetClick_div = document.querySelector(".skynet-click > p");
 
 
 /**  Add some event listeners with click event for calling function
- *   We need click the choise , after that compare the choise with computer's choise
- *   Compare this two and give the result back  
- */
-
-// define main game function
+ *   We need click the choice , after that compare the choice with computer's choice
+ *  Compare this two and give the result back
+ */ 
+ 
 
 function getSkynetPick() {
     let choices = ["rock", "paper", "scissors"];
@@ -26,25 +27,35 @@ function getSkynetPick() {
     return choices[randomNumber];
 }
 
+// Win, lose or draw game function 
+
 function win(userPick, skynetChoice) {
     playerScore++;
     playerScore_span.innerHTML = playerScore;
     skynetScore_span.innerHTML = skynetScore;
-    result_p.innerHTML = userPick + " " + "beats" + " " + skynetChoice + " " + ", you win !🔥"
+    playerClick_div.innerHTML = userPick;
+    skynetClick_div.innerHTML = skynetChoice;
+    result_p.innerHTML = `${userPick} beats ${skynetChoice} , you win !🔥`
 }
 
 function lose(userPick, skynetChoice) {
     skynetScore++;
     playerScore_span.innerHTML = playerScore;
     skynetScore_span.innerHTML = skynetScore;
-    result_p.innerHTML = userPick + " " + "lose to" + " " + skynetChoice + " " + ", you lost !👎"
+    playerClick_div.innerHTML = userPick;
+    skynetClick_div.innerHTML = skynetChoice;
+    result_p.innerHTML = `${userPick} lose to ${skynetChoice}, you lost !👎`
 }
 
 function draw(userPick, skynetChoice) {
     playerScore_span.innerHTML = playerScore;
     skynetScore_span.innerHTML = skynetScore;
-    result_p.innerHTML = userPick + " " + "equals" + " " + skynetChoice + " " + ", i'ts a draw !👐"
+    playerClick_div.innerHTML = userPick;
+    skynetClick_div.innerHTML = skynetChoice;
+    result_p.innerHTML = `${userPick} equals ${skynetChoice}, i'ts a draw !👐"`
 }
+
+// define main game function
 
 function game(userPick) {
     let skynetChoice = getSkynetPick();
