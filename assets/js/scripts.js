@@ -27,7 +27,7 @@ function getSkynetPick() {
     return choices[randomNumber];
 }
 
-// Win, lose or draw game function 
+// Win, lose or draw game function with incrementing score
 
 function win(userPick, skynetChoice) {
     playerScore++;
@@ -95,3 +95,12 @@ function main() {
 }
 
 main();
+
+//* Add confirm alert if you click rules
+
+function rules() {
+    let result = confirm("Did you read the rules?");
+    if (result==false) {
+        event.preventDefault();
+    }
+}
