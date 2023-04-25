@@ -36,6 +36,8 @@ function win(userPick, skynetChoice) {
     playerClick_div.innerHTML = userPick;
     skynetClick_div.innerHTML = skynetChoice;
     result_p.innerHTML = `${userPick} beats ${skynetChoice} , you win !🔥`
+    document.getElementById(userPick).classList.add("green-win");
+    setTimeout(function() {document.getElementById(userPick).classList.remove("green-win")}, 450);
 }
 
 function lose(userPick, skynetChoice) {
@@ -45,6 +47,8 @@ function lose(userPick, skynetChoice) {
     playerClick_div.innerHTML = userPick;
     skynetClick_div.innerHTML = skynetChoice;
     result_p.innerHTML = `${userPick} lose to ${skynetChoice}, you lost !👎`
+    document.getElementById(userPick).classList.add("red-loose");
+    setTimeout(function() {document.getElementById(userPick).classList.remove("red-loose")}, 450);
 }
 
 function draw(userPick, skynetChoice) {
@@ -53,6 +57,8 @@ function draw(userPick, skynetChoice) {
     playerClick_div.innerHTML = userPick;
     skynetClick_div.innerHTML = skynetChoice;
     result_p.innerHTML = `${userPick} equals ${skynetChoice}, i'ts a draw !👐`
+    document.getElementById(userPick).classList.add("grey-draw");
+    setTimeout(function() {document.getElementById(userPick).classList.remove("grey-draw")}, 450);
 }
 
 // define main game function
