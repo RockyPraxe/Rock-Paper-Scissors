@@ -52,7 +52,7 @@ function draw(userPick, skynetChoice) {
     skynetScore_span.innerHTML = skynetScore;
     playerClick_div.innerHTML = userPick;
     skynetClick_div.innerHTML = skynetChoice;
-    result_p.innerHTML = `${userPick} equals ${skynetChoice}, i'ts a draw !👐"`
+    result_p.innerHTML = `${userPick} equals ${skynetChoice}, i'ts a draw !👐`
 }
 
 // define main game function
