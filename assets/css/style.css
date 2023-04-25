@@ -71,7 +71,7 @@ header > h1 {
 
 .pick {
     border: 3px solid white;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     margin: 0 20px ;
     padding: 10px;
     display: inline-block;
@@ -81,7 +81,8 @@ header > h1 {
 
 .pick:hover {
     cursor: pointer;
-    background: #35CEC8;
+    background: black;
+    /*background: #35CEC8;*/
 }
 
 /*message*/
