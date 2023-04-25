@@ -18,8 +18,8 @@ let skynetClick_div = document.querySelector(".skynet-click > p");
 /**  Add some event listeners with click event for calling function
  *   We need click the choice , after that compare the choice with computer's choice
  *  Compare this two and give the result back
- */ 
- 
+ */
+
 
 function getSkynetPick() {
     let choices = ["rock", "paper", "scissors"];
@@ -100,7 +100,7 @@ main();
 
 function rules() {
     let result = confirm("Did you read the rules?");
-    if (result==false) {
+    if (result == false) {
         event.preventDefault();
     }
 }
