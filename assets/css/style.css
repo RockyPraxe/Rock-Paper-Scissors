@@ -58,7 +58,7 @@ header > h1 {
 /*result area*/
 
 .result {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -96,7 +96,7 @@ header > h1 {
 footer {
     position: absolute;
     left: 0;
-    bottom: 50px;
+    bottom: 0px;
     width: 100%;
     box-sizing: border-box;
     min-height: 80px;
