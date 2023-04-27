@@ -42,6 +42,10 @@ To view the website, simply click on the following link: [View the live project 
 - As a user, I want to be able to easily share the website with my friends so that we can play against each other remotely.
 - As a user, I want the website to load quickly and be responsive so that I can start playing right away and not have to wait for the page to load.
 
+- ## Wireframes
+   - ### Main Page
+   ![Game Window](assets/images/wireframe.png)
+
 # Features
 
 <a name="features"></a>
@@ -121,10 +125,67 @@ The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7,
 
 <a name="deployment"></a>
 
+### GitHub Pages
+
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab.
 -  Then on the left side of the screen click on Pages
 - From the source section drop-down menu, select the Master Branch.
 - Once the master branch has been selected as main, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 - The live link can be found here - https://rockypraxe.github.io/Rock-Paper-Scissors/
-- Alternatively you can Clone or Fork this repository into your GitHub account.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+7. Press Enter. Your local clone will be created.
+
+
+# Code
+
+- HTML
+- CSS
+- JavaScript
+
+# Credits
+
+<a name="credits"></a>
+
+- Code Institute-LMS videos, tutorials and templates
+- Rock Paper Scissors Project
+- [W3schools.com](https://www.w3schools.com/css/default.asp) 
+- [Youtube link to freecodecamp](https://www.youtube.com/@freecodecamp) and few others
+
+## Content
+- The text for the Home page was taken from the Autor, Wikipedia and Google.
+- The font and font style were taken from [Google Fonts - link for my fonts](https://fonts.google.com/specimen/DynaPuff?preview.text=Rock%20covers%20PAper.%20You%20Win!&preview.text_type=custom&query=os)
+
+## Media
+
+- The pictures were taken from [Google](https://www.google.com/) and [PNGitem](https://www.pngitem.com/)
+
+## Design
+
+- For the colors i used [Adobe Color Wheel](https://color.adobe.com/create/color-wheel) to pick the colors from my NFT on [OpeanSea](https://opensea.io/assets/ethereum/0xc7df86762ba83f2a6197e1ff9bb40ae0f696b9e6/3556)
+and then i found the given color on [ColorSpace - link to my color](https://mycolor.space/?hex=%23B95BD5&sub=1)
+
+- I used [Am I Responsive](https://ui.dev/amiresponsive) for the responsive design picture for README.md
+
+- I used [My Favicon Generator link](https://favicon.io/emoji-favicons/video-game) to insert the Video Game
