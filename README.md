@@ -92,6 +92,10 @@ The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7,
 
 ![Index](assets/images/css-validator.png)
 
+## JavaScript JSHint
+
+![JavaScript](assets/images/jshint.prtsc.png)
+
 - Lighthouse testing for the desktop version and the mobile version was also improved.
 
 - Desktop Version
@@ -101,6 +105,17 @@ The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7,
 - Mobile version
 
 ![Mobile](assets/images/mobile-lighthouse.png)
+
+![Responsive-Mobile](assets/images/mobileversion-prtsc.png)
+![Responsive-Tablet](assets/images/tabletversion-prtsc.png)
+![Responsive-320px](assets/images/320pxresponsive.png)
+
+![Paper-Draw](assets/images/paperdraw.png)
+![Rock-Win](assets/images/rockwin.png)
+![Scissors-Lose](assets/images/scissorslost.png)
+
+
+
 
 # Deployment
 
