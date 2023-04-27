@@ -110,12 +110,28 @@ The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7,
 
 ![Mobile](assets/images/mobile-lighthouse.png)
 
+- Responsive Mobile version
+
 ![Responsive-Mobile](assets/images/mobileversion-prtsc.png)
+
+- Responsive Tablet version
+
 ![Responsive-Tablet](assets/images/tabletversion-prtsc.png)
+
+- Responsive 320px version
+
 ![Responsive-320px](assets/images/320pxresponsive.png)
 
+- Paper Draw
+
 ![Paper-Draw](assets/images/paperdraw.png)
+
+- Rock Win
+
 ![Rock-Win](assets/images/rockwin.png)
+
+- Scissors Lose
+
 ![Scissors-Lose](assets/images/scissorslost.png)
 
 
@@ -188,4 +204,4 @@ and then i found the given color on [ColorSpace - link to my color](https://myco
 
 - I used [Am I Responsive](https://ui.dev/amiresponsive) for the responsive design picture for README.md
 
-- I used [My Favicon Generator link](https://favicon.io/emoji-favicons/video-game) to insert the Video Game
+- I used [My Favicon Generator link](https://favicon.io/emoji-favicons/video-game) to insert the Video Game icon
