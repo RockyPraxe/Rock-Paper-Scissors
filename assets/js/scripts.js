@@ -111,4 +111,3 @@ function rules() {
     }
 }
 
-rules();

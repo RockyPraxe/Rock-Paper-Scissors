@@ -73,14 +73,11 @@ header>h1 {
 /*game area*/
 
 .buttons {
-    /*width: 100%;*/
     margin: 120px 0 80px 0;
     text-align: center;
 }
 
 .pick {
-    /*width: 200px;
-    height: 150px;*/
     border: 3px solid white;
     margin: 0 20px;
     padding: 10px;
@@ -88,17 +85,10 @@ header>h1 {
     transition: all 0.3s ease;
 }
 
-/*img {
-    margin: 0 auto;
-    width: 200px;
-    height: 150px;
-}
-*/
 .pick:hover {
     cursor: pointer;
     background: black;
 }
-
 
 /*message*/
 
@@ -123,7 +113,6 @@ footer {
 .finish:hover {
     cursor: pointer;
 }
-
 
 /*diferent images size and font depend on screen size*/
 
