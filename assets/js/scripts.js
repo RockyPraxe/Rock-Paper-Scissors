@@ -110,3 +110,5 @@ function rules() {
         event.preventDefault();
     }
 }
+
+rules();

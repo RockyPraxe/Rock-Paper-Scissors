@@ -62,3 +62,54 @@ To view the website, simply click on the following link: [View the live project 
 - The footer section includes the rules and "Rules" is also confirm alert.
 
 ![footer](assets/images/footer.png)
+
+# Features Left To Implement
+
+<a name="implement"></a>
+
+- Multiplayer Mode: Implement a feature that allows users to play against each other online, either by sharing a unique game code or by connecting to a central server.
+- Customizable Themes: Add the ability for users to choose from different visual themes or customize the background and graphics to their liking.
+- Leaderboard: Create a leaderboard that tracks the top players based on win/loss records or other metrics, allowing users to compete with others for a spot at the top.
+- Language Support: Add support for multiple languages, allowing users from around the world to enjoy the game in their native language.
+- Social Sharing: Enable users to share their win/loss records or gameplay highlights on social media platforms, helping to spread the word about the website and increase its popularity.
+
+# Testing
+
+<a name="testing"></a>
+
+-  The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-  A large amount of testing was done to ensure that all pages were linking correctly.
+-  Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+- The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+-  [W3C Markup Validator - Results for index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Frockypraxe.github.io%2FRock-Paper-Scissors%2F)
+
+![index.html](assets/images/html-checker.png.png)
+
+-  [W3C CSS Validator - Results for index.html](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frockypraxe.github.io%2FRock-Paper-Scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+![Index](assets/images/css-validator.png)
+
+- Lighthouse testing for the desktop version and the mobile version was also improved.
+
+- Desktop Version
+
+![Desktop](assets/images/desktop-lighthouse.png)
+
+- Mobile version
+
+![Mobile](assets/images/mobile-lighthouse.png)
+
+# Deployment
+
+<a name="deployment"></a>
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab.
+-  Then on the left side of the screen click on Pages
+- From the source section drop-down menu, select the Master Branch.
+- Once the master branch has been selected as main, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- The live link can be found here - https://rockypraxe.github.io/Rock-Paper-Scissors/
+- Alternatively you can Clone or Fork this repository into your GitHub account.
